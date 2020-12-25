@@ -1,0 +1,12 @@
+.album {
+    cursor: pointer;
+    &__thumnail {
+        & > img {
+            width: 190px;
+            border-radius: 0.25rem;
+        }
+    }
+    &__name {
+        font-weight: bold;
+    }
+}
