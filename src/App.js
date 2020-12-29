@@ -19,7 +19,7 @@ function App(props) {
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
-          height: 400,
+          height: 20,
           color: 'white',
         }}
         {...rest}
