@@ -1,8 +1,0 @@
-.Todo-List {
-    cursor: pointer;
-    & > li.completed {
-        font-style: italic;
-        color: #cccccc;
-        text-decoration: line-through;
-    }
-}
