@@ -1,7 +1,4 @@
-/*eslint-disable*/
 import React from 'react';
-
-// @material-ui/core components
 import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -24,21 +21,21 @@ export default function HeaderLinks(props) {
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to="/blogs" className={classes.navLink}>
+        <NavLink to="/" className={classes.navLink}>
           <Button color="transparent" target="_blank">
             <Book className={classes.icons} /> Bài viết
           </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to="/abouts" className={classes.navLink}>
+        <NavLink to="/" className={classes.navLink}>
           <Button color="transparent" target="_blank">
             <Face className={classes.icons} /> Về Chúng Tôi
           </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to="/contacts" className={classes.navLink}>
+        <NavLink to="/" className={classes.navLink}>
           <Button color="transparent" target="_blank">
             <Contacts className={classes.icons} /> Liên Hệ
           </Button>

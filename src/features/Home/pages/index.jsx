@@ -40,7 +40,7 @@ function Home(props) {
                 thức khi còn thơ bé.
               </h4>
               <br />
-              <NavLink to="/contacts">
+              <NavLink to="/">
                 <Button color="success" size="lg" target="_blank" rel="noopener noreferrer">
                   <Contacts />
                   Liên hệ với chúng tôi

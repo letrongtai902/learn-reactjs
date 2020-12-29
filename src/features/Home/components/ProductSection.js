@@ -42,7 +42,7 @@ export default function ProductSection() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Trái Cây Miệt Vườn
+                    TRÁI CÂY MIỆT VƯỜN
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
                     Trái cây miệt vườn - đặc sản vùng miền như: xoài cát Hòa Lộc, cam xoàn Đồng Tháp, vải thiều Bắc
@@ -64,7 +64,7 @@ export default function ProductSection() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Rau Sạch An Toàn Sức Khỏe
+                    RAU SẠCH AN TOÀN SỨC KHỎE
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
                     Rau sạch trồng tại nhà không thuốc trừ sâu và được trồng với 100% là phân bón hữu cơ, giúp bảo vệ
@@ -86,7 +86,7 @@ export default function ProductSection() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Thực phẩm đóng gói
+                    THỰC PHẨM ĐÓNG GÓI
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
                     Thực phẩm khô thực phẩm đóng gói được làm trực tiếp bằng phương pháp thủ công của người nông dân
