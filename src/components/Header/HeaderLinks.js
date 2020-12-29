@@ -21,21 +21,21 @@ export default function HeaderLinks(props) {
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to="/" className={classes.navLink}>
+        <NavLink to="/blogs" className={classes.navLink}>
           <Button color="transparent" target="_blank">
             <Book className={classes.icons} /> Bài viết
           </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to="/" className={classes.navLink}>
+        <NavLink to="/abouts" className={classes.navLink}>
           <Button color="transparent" target="_blank">
             <Face className={classes.icons} /> Về Chúng Tôi
           </Button>
         </NavLink>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to="/" className={classes.navLink}>
+        <NavLink to="/contacts" className={classes.navLink}>
           <Button color="transparent" target="_blank">
             <Contacts className={classes.icons} /> Liên Hệ
           </Button>
