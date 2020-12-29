@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import { Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import HeaderLinks from './components/Header/HeaderLinks';
+import logo from './assets/img/logo.png';
 
 const dashboardRoutes = [];
 
@@ -14,7 +15,7 @@ function App(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="UMAI FOOD"
+        brand={<img src={logo} style={{ height: '70px' }} />}
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{

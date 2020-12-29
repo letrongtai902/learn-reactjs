@@ -6,7 +6,7 @@ import GridItem from '../../../components/Grid/GridItem';
 import Parallax from '../../../components/Parallax/Parallax';
 import slider from '../../../assets/img/landing-bg.jpg';
 import Button from '../../../components/CustomButtons/Button';
-import { Contacts } from '@material-ui/icons';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import { NavLink } from 'react-router-dom';
 import ProductSection from '../components/ProductSection';
 import WorkSection from '../components/WorkSection';
@@ -34,16 +34,11 @@ function Home(props) {
                 Umai - tiếng Nhật nghĩa là Ngon. Trong tiếng Việt, tên Ừ Mai mang đậm nét thân thuộc, dân dã như gọi tên
                 một cô gái thôn quê dịu dàng, ngọt ngào.
               </h4>
-              <h4>
-                Cũng giống như ý nghĩa của tên Ừ Mai, chúng tôi mang trong mình sứ mệnh Tìm Lại Hương Xưa trong từng
-                trái cây chín mùa - hương vị của đất trời mà tất cả những ai thuộc về thế hệ 8X và 9X từng được thưởng
-                thức khi còn thơ bé.
-              </h4>
               <br />
               <NavLink to="/">
                 <Button color="success" size="lg" target="_blank" rel="noopener noreferrer">
-                  <Contacts />
-                  Liên hệ với chúng tôi
+                  XEM THÊM
+                  <ArrowForwardIosIcon />
                 </Button>
               </NavLink>
             </GridItem>
