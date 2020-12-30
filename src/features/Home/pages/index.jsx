@@ -4,7 +4,7 @@ import styles from '../../../assets/jss/material-kit-react/views/landingPage';
 import GridContainer from '../../../components/Grid/GridContainer';
 import GridItem from '../../../components/Grid/GridItem';
 import Parallax from '../../../components/Parallax/Parallax';
-import slider from '../../../assets/img/landing-bg.jpg';
+import slider from '../../../assets/img/silider-home.jpg';
 import Button from '../../../components/CustomButtons/Button';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import { NavLink } from 'react-router-dom';
@@ -26,16 +26,8 @@ function Home(props) {
                 nước nông nghiệp phát triển bậc nhất Thế Giới như Nhật Bản, Israel với ước mơ đem kiến thức trở về và
                 gieo thành quả ngọt trên đất mẹ.
               </h4>
-              <h4>
-                Năm 2020, Ừ Mai Fruits được khai sinh với mong muốn đem vị ngon, vị ngọt từ trái cây đặc sản quê hương
-                vươn tầm Thế Giới.
-              </h4>
-              <h4>
-                Umai - tiếng Nhật nghĩa là Ngon. Trong tiếng Việt, tên Ừ Mai mang đậm nét thân thuộc, dân dã như gọi tên
-                một cô gái thôn quê dịu dàng, ngọt ngào.
-              </h4>
               <br />
-              <NavLink to="/">
+              <NavLink to="/abouts">
                 <Button color="success" size="lg" target="_blank" rel="noopener noreferrer">
                   XEM THÊM
                   <ArrowForwardIosIcon />

@@ -18,7 +18,7 @@ function App(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand={<img src={logo} style={{ height: '70px' }} alt="LogoUMai" />}
+        brand={<img src={logo} style={{ height: '70px' }} alt="Logo UMai" />}
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{

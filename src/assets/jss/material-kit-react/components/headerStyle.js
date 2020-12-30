@@ -138,5 +138,4 @@ const headerStyle = {
     ...transition,
   },
 };
-
 export default headerStyle;

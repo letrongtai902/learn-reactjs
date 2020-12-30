@@ -20,7 +20,7 @@ Header.propTypes = {
   color: PropTypes.oneOf(['primary', 'info', 'success', 'warning', 'danger', 'transparent', 'white', 'rose', 'dark']),
   rightLinks: PropTypes.node,
   leftLinks: PropTypes.node,
-  brand: PropTypes.string,
+  brand: PropTypes.object,
   fixed: PropTypes.bool,
   absolute: PropTypes.bool,
   changeColorOnScroll: PropTypes.shape({
