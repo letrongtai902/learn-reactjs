@@ -19,7 +19,7 @@ function About(props) {
         <div className={classes.container} style={{ textAlign: 'center' }}>
           <GridContainer>
             <GridItem>
-              <h1 className={classes.title}>VỀ CHÚNG Ừ MAI FOOD</h1>
+              <h1 className={classes.title}>VỀ Ừ MAI FOOD</h1>
             </GridItem>
           </GridContainer>
         </div>
