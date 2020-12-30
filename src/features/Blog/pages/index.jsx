@@ -24,7 +24,9 @@ function Blog(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <div className={classes.container}></div>
+        <div className={classes.container}>
+          <h1>Blog Page</h1>
+        </div>
       </div>
     </div>
   );
