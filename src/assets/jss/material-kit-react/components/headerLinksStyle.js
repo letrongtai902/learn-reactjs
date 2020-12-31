@@ -20,7 +20,7 @@ const headerLinksStyle = (theme) => ({
     display: 'block',
     width: 'auto',
     margin: '0',
-    padding: '0',
+    padding: '6px',
     [theme.breakpoints.down('sm')]: {
       width: '100%',
       '&:after': {
