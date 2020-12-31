@@ -14,32 +14,32 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <NavLink to="/" className={classes.navLink}>
-          <Button color="transparent" target="_blank">
+        <Button color="transparent" target="_blank">
+          <NavLink to="/" className={classes.navLink}>
             <Home className={classes.icons} /> Trang Chủ
-          </Button>
-        </NavLink>
+          </NavLink>
+        </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to="/blogs" className={classes.navLink}>
-          <Button color="transparent" target="_blank">
+        <Button color="transparent" target="_blank">
+          <NavLink to="/blogs" className={classes.navLink}>
             <Book className={classes.icons} /> Bài viết
-          </Button>
-        </NavLink>
+          </NavLink>
+        </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to="/abouts" className={classes.navLink}>
-          <Button color="transparent" target="_blank">
+        <Button color="transparent" target="_blank">
+          <NavLink to="/abouts" className={classes.navLink}>
             <Face className={classes.icons} /> Về Chúng Tôi
-          </Button>
-        </NavLink>
+          </NavLink>
+        </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <NavLink to="/contacts" className={classes.navLink}>
-          <Button color="transparent" target="_blank">
+        <Button color="transparent" target="_blank">
+          <NavLink to="/contacts" className={classes.navLink}>
             <Contacts className={classes.icons} /> Liên Hệ
-          </Button>
-        </NavLink>
+          </NavLink>
+        </Button>
       </ListItem>
     </List>
   );
