@@ -18,9 +18,7 @@ function About(props) {
       <Parallax filter image={slider}>
         <div className={classes.container} style={{ textAlign: 'center' }}>
           <GridContainer>
-            <GridItem>
-              <h1 className={classes.title}>VỀ Ừ MAI FOOD</h1>
-            </GridItem>
+            <GridItem></GridItem>
           </GridContainer>
         </div>
       </Parallax>

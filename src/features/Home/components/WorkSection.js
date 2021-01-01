@@ -15,7 +15,7 @@ export default function WorkSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Nhập email để liên hệ với chúng tôi</h2>
+          <h2 className={classes.title}>THÔNG TIN LIÊN HỆ</h2>
           <h4 className={classes.description}>
             Liên hệ với chúng tôi để chúng tôi có cơ hội đem đến cho bạn thực phẩm sạch nhất, an toàn nhất của chúng tôi
           </h4>
@@ -53,7 +53,7 @@ export default function WorkSection() {
                 }}
               />
               <GridItem xs={12} sm={12} md={4}>
-                <Button color="primary"> Gửi đến chúng tôi </Button>
+                <Button color="success"> Gửi đến chúng tôi </Button>
               </GridItem>
             </GridContainer>
           </form>

@@ -3,7 +3,6 @@ import {
   defaultFont,
   primaryColor,
   infoColor,
-  successColor,
   warningColor,
   dangerColor,
   roseColor,
@@ -77,9 +76,9 @@ const headerStyle = {
     boxShadow: '0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(0, 188, 212, 0.46)',
   },
   success: {
-    backgroundColor: successColor,
+    backgroundColor: 'green',
     color: '#FFFFFF',
-    boxShadow: '0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(76, 175, 80, 0.46)',
+    boxShadow: '0 8px 40px 0px rgba(0, 0, 0, 0.8), 0 7px 12px -5px rgba(76, 175, 80, 0.46)',
   },
   warning: {
     backgroundColor: warningColor,

@@ -1,115 +1,55 @@
 import React from 'react';
-import classNames from 'classnames';
 import { makeStyles } from '@material-ui/core/styles';
+import CardBlogHome from '../../../components/CardBlogHome';
 import GridContainer from '../../../components/Grid/GridContainer';
 import GridItem from '../../../components/Grid/GridItem';
-import Button from '../../../components/CustomButtons/Button';
-import Card from '../../../components/Card/Card';
-import CardBody from '../../../components/Card/CardBody';
-import CardFooter from '../../../components/Card/CardFooter';
-
 import styles from '../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle';
-
-import team1 from '../../../assets/img/faces/avatar.jpg';
-import team2 from '../../../assets/img/faces/christian.jpg';
-import team3 from '../../../assets/img/faces/kendall.jpg';
+import noilongketrongcay from '../../../assets/img/noi-long-ke-trong-cay.jpg';
+import timlaihuongxua from '../../../assets/img/tim-lai-huong-xua.jpg';
 
 const useStyles = makeStyles(styles);
 
 export default function TeamSection() {
   const classes = useStyles();
-  const imageClasses = classNames(classes.imgRaised, classes.imgRoundedCircle, classes.imgFluid);
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Here is our team</h2>
+      <h2 className={classes.title}>HÀNH TRÌNH Ừ MAI</h2>
       <div>
-        <GridContainer>
+        <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team1} alt="..." className={imageClasses} />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Gigi Hadid
-                <br />
-                <small className={classes.smallTitle}>Model</small>
-              </h4>
-              <CardBody>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You can give more details about what they
-                  do. Feel free to add some <a href="#pablo">links</a> for people to be able to follow them outside the
-                  site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button justIcon color="transparent" className={classes.margin5}>
-                  <i className={classes.socials + ' fab fa-twitter'} />
-                </Button>
-                <Button justIcon color="transparent" className={classes.margin5}>
-                  <i className={classes.socials + ' fab fa-instagram'} />
-                </Button>
-                <Button justIcon color="transparent" className={classes.margin5}>
-                  <i className={classes.socials + ' fab fa-facebook'} />
-                </Button>
-              </CardFooter>
-            </Card>
+            <CardBlogHome
+              imglink={timlaihuongxua}
+              description="Người tiêu dùng càng ngày càng nhận thấy rằng thực phẩm ngày nay đã đánh mất dần hương vị đặc trưng. Đặc biệt ở thành thị, mặc dù mẫu mã ngày càng trở nên đa dạng, phong phú, nhưng về chất lượng hương vị được đánh giá là bị suy giảm rất nhiều so với trước đây."
+              creatTime="1/1/2021"
+              title="TÌM LẠI HƯƠNG XƯA"
+              brcolor="red"
+            ></CardBlogHome>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team2} alt="..." className={imageClasses} />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Christian Louboutin
-                <br />
-                <small className={classes.smallTitle}>Designer</small>
-              </h4>
-              <CardBody>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You can give more details about what they
-                  do. Feel free to add some <a href="#pablo">links</a> for people to be able to follow them outside the
-                  site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button justIcon color="transparent" className={classes.margin5}>
-                  <i className={classes.socials + ' fab fa-twitter'} />
-                </Button>
-                <Button justIcon color="transparent" className={classes.margin5}>
-                  <i className={classes.socials + ' fab fa-linkedin'} />
-                </Button>
-              </CardFooter>
-            </Card>
+            <CardBlogHome
+              imglink={noilongketrongcay}
+              description={
+                '‘Giải cứu nông sản’ và ‘thực phẩm sạch’ đá trở thành 2 cụm từ không còn xa lạ với người Việt. Trong khi kẻ trồng cây luôn phải lo lắng về mùa vụ, thời tiết, đầu ra và đôi khi còn phải trả giá cả sức khỏe để có thu nhập.'
+              }
+              creatTime={'1/1/2021'}
+              title={'NỖI LÒNG KẺ TRỒNG CÂY, NỖI LO CỦA KẺ ĂN TRÁI'}
+              brcolor="green"
+              avatarName="T"
+            ></CardBlogHome>
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src={team3} alt="..." className={imageClasses} />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Kendall Jenner
-                <br />
-                <small className={classes.smallTitle}>Model</small>
-              </h4>
-              <CardBody>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You can give more details about what they
-                  do. Feel free to add some <a href="#pablo">links</a> for people to be able to follow them outside the
-                  site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button justIcon color="transparent" className={classes.margin5}>
-                  <i className={classes.socials + ' fab fa-twitter'} />
-                </Button>
-                <Button justIcon color="transparent" className={classes.margin5}>
-                  <i className={classes.socials + ' fab fa-instagram'} />
-                </Button>
-                <Button justIcon color="transparent" className={classes.margin5}>
-                  <i className={classes.socials + ' fab fa-facebook'} />
-                </Button>
-              </CardFooter>
-            </Card>
+            <CardBlogHome
+              imglink={
+                'https://bizweb.dktcdn.net/thumb/large/100/263/497/files/379-diet-nutrition-2-why-fruits-and-vegetables-are-important.jpg?v=1507795032317'
+              }
+              description={
+                'Hàng nông sản muốn tham gia chuỗi giá trị toàn cầu cần phải cải tiến từ khâu giống, thuốc bảo vệ thực vật, các quy trình phân bón từ lúc gieo trồng cho đến lúc thu hoạch.'
+              }
+              creatTime={'1/1/2021'}
+              title={'GIA TĂNG NĂNG LỰC CẠNH TRANH CHO NÔNG SẢN XUẤT KHẨU'}
+              brcolor="blue"
+              avatarName="A"
+            ></CardBlogHome>
           </GridItem>
         </GridContainer>
       </div>

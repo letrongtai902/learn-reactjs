@@ -1,7 +1,7 @@
 import './App.scss';
 import Home from './features/Home/pages';
 import Footer from './components/Footer';
-import { Route, Switch } from 'react-router-dom';
+import { NavLink, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import HeaderLinks from './components/Header/HeaderLinks';
 import logo from './assets/img/logo.png';
@@ -18,12 +18,16 @@ function App(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand={<img src={logo} style={{ height: '60px' }} alt="Logo UMai" />}
+        brand={
+          <NavLink to="/">
+            <img src={logo} style={{ height: '60px' }} alt="Logo UMai" />
+          </NavLink>
+        }
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 10,
-          color: 'white',
+          color: 'success',
         }}
         {...rest}
       />

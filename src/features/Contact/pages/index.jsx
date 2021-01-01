@@ -17,9 +17,7 @@ function Contact(props) {
       <Parallax filter image={slider}>
         <div className={classes.container} style={{ textAlign: 'center' }}>
           <GridContainer>
-            <GridItem>
-              <h1 className={classes.title}>LIÊN HỆ VỚI CHÚNG TÔI</h1>
-            </GridItem>
+            <GridItem></GridItem>
           </GridContainer>
         </div>
       </Parallax>

@@ -13,16 +13,16 @@ export default function ProductSection() {
       <GridContainer justify="center">
         <GridItem xs={12}>
           <h2 className={classes.title} style={{ color: '#1b5633' }}>
-            ĐÔI NÉT VỀ Ừ MAI FOOD
+            ĐÔI NÉT VỀ Ừ MAI
           </h2>
           <h5 className={classes.content}>
-            Ừ Mai Food là một dự án được ấp ủ bởi những con người trẻ tuổi. Những người đã hành trang cơm áo đến các
-            nước nông nghiệp phát triển bậc nhất Thế Giới như Nhật Bản, Israel với ước mơ&nbsp;đem kiến thức trở về
+            Ừ Mai là một dự án được ấp ủ bởi những con người trẻ tuổi. Những người đã hành trang cơm áo đến các nước
+            nông nghiệp phát triển bậc nhất Thế Giới như Nhật Bản, Israel với ước mơ&nbsp;đem kiến thức trở về
             và&nbsp;gieo thành quả ngọt trên đất mẹ.&nbsp;
           </h5>
           <h5 className={classes.content}>
-            Năm 2020, Ừ Mai Food được khai sinh với mong muốn đem vị ngon, vị ngọt từ trái cây đặc sản quê hương vươn
-            tầm Thế Giới.
+            Năm 2020, Ừ Mai được khai sinh với mong muốn đem vị ngon, vị ngọt từ trái cây đặc sản quê hương vươn tầm Thế
+            Giới.
           </h5>
           <h5 className={classes.content}>
             Umai - tiếng Nhật nghĩa là Ngon. Trong tiếng Việt, tên Ừ Mai mang đậm nét thân thuộc, dân dã như gọi tên một
@@ -51,7 +51,7 @@ export default function ProductSection() {
             </li>
           </ul>
           <h5 className={classes.content}>
-            <strong style={{ color: '#1b5633' }}>TRIẾT LÝ CỦA Ừ MAI FOOD</strong>
+            <strong style={{ color: '#1b5633' }}>TRIẾT LÝ CỦA Ừ MAI </strong>
           </h5>
           <ul>
             <li>
@@ -68,7 +68,7 @@ export default function ProductSection() {
             </li>
           </ul>
           <h5 className={classes.content}>
-            &nbsp;<strong style={{ color: '#1b5633' }}>ĐỊNH HƯỚNG PHÁT TRIỂN CỦA Ừ MAI FOOD</strong>
+            &nbsp;<strong style={{ color: '#1b5633' }}>ĐỊNH HƯỚNG PHÁT TRIỂN CỦA Ừ MAI </strong>
           </h5>
           <ul>
             <li>
@@ -92,7 +92,7 @@ export default function ProductSection() {
             </li>
           </ul>
           <h5 className={classes.content}>
-            <strong style={{ color: '#1b5633' }}>SẢN PHẨM CỦA Ừ MAI FOOD</strong>
+            <strong style={{ color: '#1b5633' }}>SẢN PHẨM CỦA Ừ MAI </strong>
           </h5>
           <ul>
             <li>
@@ -102,10 +102,16 @@ export default function ProductSection() {
               </h5>
             </li>
             <li>
-              <h5 className={classes.content}>Trái cây nhập khẩu: táo, nho, kiwi...</h5>
+              <h5 className={classes.content}>
+                Rau tự nhiên: Rau sạch trồng tại nhà không thuốc trừ sâu và được trồng với 100% là phân bón hữu cơ, giúp
+                bảo vệ sức khỏe một cách tốt nhất
+              </h5>
             </li>
             <li>
-              <h5 className={classes.content}>Quầy trái cây ăn vặt và nước giải khát từ trái cây tươi ngon.</h5>
+              <h5 className={classes.content}>
+                Thực phẩm đóng gói: Thực phẩm khô thực phẩm đóng gói được làm trực tiếp bằng phương pháp thủ công của
+                người nông dân như: chuối khô, xoài khô,...{' '}
+              </h5>
             </li>
           </ul>
           <h5 className={classes.content}>
