@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import styles from '../../assets/jss/material-kit-react/components/headerLinksStyle';
-import { Face, Contacts, Home, Book, AccountBoxOutlined } from '@material-ui/icons';
+import { Face, Contacts, Home, Book, ReorderOutlined } from '@material-ui/icons';
 import { NavLink } from 'react-router-dom';
 import CustomDropdown from '../CustomDropdown/CustomDropdown';
 import Button from '../CustomButtons/Button';
@@ -29,7 +29,7 @@ export default function HeaderLinks(props) {
               className: classes.navLink,
               color: 'transparent',
             }}
-            buttonIcon={AccountBoxOutlined}
+            buttonIcon={ReorderOutlined}
             dropdownList={[
               <Button className={classes.dropdownLink} color="transparent">
                 TRÁI CÂY MIỆT VƯỜN
