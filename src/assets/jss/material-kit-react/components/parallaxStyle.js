@@ -14,7 +14,7 @@ const parallaxStyle = {
   },
   filter: {
     '&:before': {
-      background: 'rgba(0, 0, 0, 0.35)',
+      background: 'rgba(0, 0, 0, 0.14)',
     },
     '&:after,&:before': {
       position: 'absolute',
