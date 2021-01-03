@@ -14,7 +14,7 @@ function Contact(props) {
   const classes = useStyles();
   return (
     <div>
-      <Parallax filter image={slider}>
+      <Parallax image={slider}>
         <div className={classes.container} style={{ textAlign: 'center' }}>
           <GridContainer>
             <GridItem></GridItem>

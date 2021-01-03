@@ -1,14 +1,10 @@
 import './App.scss';
-// import Home from './features/Home/pages';
 import Footer from './components/Footer';
 import { NavLink, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import HeaderLinks from './components/Header/HeaderLinks';
 import logo from './assets/img/logo.png';
 import Loading from './components/Loading';
-// import Blog from './features/Blog/pages';
-// import About from './features/About/pages';
-// import Contact from './features/Contact/pages';
 import { lazy, Suspense } from 'react';
 
 const dashboardRoutes = [];
@@ -33,7 +29,7 @@ function App(props) {
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
-            height: 10,
+            height: 1,
             color: 'success',
           }}
           {...rest}

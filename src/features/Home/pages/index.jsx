@@ -14,7 +14,7 @@ function Home(props) {
   const classes = useStyles();
   return (
     <div>
-      <Parallax filter image={slider}>
+      <Parallax image={slider}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={8}></GridItem>

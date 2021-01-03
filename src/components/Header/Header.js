@@ -13,7 +13,7 @@ import styles from '../../assets/jss/material-kit-react/components/headerStyle.j
 
 const useStyles = makeStyles(styles);
 Header.defaultProp = {
-  color: 'white',
+  color: 'success',
 };
 
 Header.propTypes = {
