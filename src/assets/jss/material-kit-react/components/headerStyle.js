@@ -9,6 +9,7 @@ import {
   transition,
   boxShadow,
   drawerWidth,
+  successColor,
 } from '../../material-kit-react';
 const headerStyle = {
   appBar: {
@@ -76,13 +77,13 @@ const headerStyle = {
     boxShadow: '0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(0, 188, 212, 0.46)',
   },
   success: {
-    backgroundColor: 'green',
+    backgroundColor: successColor,
     color: '#FFFFFF',
     boxShadow: '0 8px 40px 0px rgba(0, 0, 0, 0.8), 0 7px 12px -5px rgba(76, 175, 80, 0.46)',
   },
   warning: {
     backgroundColor: warningColor,
-    color: '#FFFFFF',
+    color: 'black',
     boxShadow: '0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(255, 152, 0, 0.46)',
   },
   danger: {

@@ -49,7 +49,7 @@ const defaultFont = {
 };
 
 const primaryColor = '#9c27b0';
-const warningColor = '#ff9800';
+const warningColor = 'yellow';
 const dangerColor = '#f44336';
 const successColor = 'green';
 const infoColor = '#00acc1';
