@@ -16,7 +16,7 @@ export default function HeaderLinks(props) {
     <div>
       <List className={classes.list}>
         <ListItem className={classes.listItem}>
-          <NavLink to="/" className={classes.navLink} target="_self">
+          <NavLink to="/" className={classes.navLink} target="_self" onClick={console.log('click')}>
             <Home className={classes.icons} /> TRANG CHỦ
           </NavLink>
         </ListItem>
