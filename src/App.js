@@ -39,6 +39,13 @@ function App(props) {
           <Route path="/blogs" component={Bloglz} />
           <Route path="/abouts" component={Aboutz} />
           <Route path="/contacts" component={Contactlz} />
+          <Route
+            path="/admin"
+            component={() => {
+              window.location.href = 'http://umaifruits.surge.sh/';
+              return null;
+            }}
+          />
         </Switch>
         <Footer />
       </Suspense>

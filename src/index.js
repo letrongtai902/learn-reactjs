@@ -7,10 +7,12 @@ import './assets/scss/material-kit-react.scss?v=1.9.0';
 import ScrollToTop from './components/Croll/ScrollToTop';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <ScrollToTop />
-    <App />
-  </BrowserRouter>,
+  <div>
+    <BrowserRouter basename="/vn">
+      <ScrollToTop />
+      <App />
+    </BrowserRouter>
+  </div>,
   document.getElementById('root')
 );
 reportWebVitals();
