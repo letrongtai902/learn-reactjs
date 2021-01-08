@@ -2,7 +2,6 @@ import React from 'react';
 import GridContainer from '../../../components/Grid/GridContainer';
 import GridItem from '../../../components/Grid/GridItem';
 import Parallax from '../../../components/Parallax/Parallax';
-import slider from '../../../assets/img/silider-about.jpg';
 import classNames from 'classnames';
 import ProductSection from '../components/ProductSection';
 
@@ -15,7 +14,11 @@ function About(props) {
   const classes = useStyles();
   return (
     <div>
-      <Parallax image={slider}>
+      <Parallax
+        image={
+          'https://firebasestorage.googleapis.com/v0/b/dataumaifruits.appspot.com/o/image%2Fsilider-about.jpg?alt=media&token=0e2f76da-4212-4714-a1b9-2cefe98b0661'
+        }
+      >
         <div className={classes.container} style={{ textAlign: 'center' }}>
           <GridContainer>
             <GridItem></GridItem>

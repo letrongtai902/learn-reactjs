@@ -3,7 +3,6 @@ import Footer from './components/Footer';
 import { NavLink, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import HeaderLinks from './components/Header/HeaderLinks';
-import logo from './assets/img/logo.png';
 import Loading from './components/Loading';
 import { lazy, Suspense } from 'react';
 
@@ -23,7 +22,13 @@ function App(props) {
           routes={dashboardRoutes}
           brand={
             <NavLink to="/">
-              <img src={logo} style={{ height: '60px' }} alt="Logo UMai" />
+              <img
+                src={
+                  'https://firebasestorage.googleapis.com/v0/b/dataumaifruits.appspot.com/o/image%2Flogo.png?alt=media&token=b197b997-8e04-4976-94f7-854619d5c387'
+                }
+                style={{ height: '60px' }}
+                alt="Logo UMai"
+              />
             </NavLink>
           }
           rightLinks={<HeaderLinks />}

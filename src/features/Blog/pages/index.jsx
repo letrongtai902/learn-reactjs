@@ -2,7 +2,6 @@ import React from 'react';
 import GridContainer from '../../../components/Grid/GridContainer';
 import GridItem from '../../../components/Grid/GridItem';
 import Parallax from '../../../components/Parallax/Parallax';
-import slider from '../../../assets/img/silider-blog.jpg';
 import classNames from 'classnames';
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -14,7 +13,11 @@ function Blog(props) {
   const classes = useStyles();
   return (
     <div>
-      <Parallax image={slider}>
+      <Parallax
+        image={
+          'https://firebasestorage.googleapis.com/v0/b/dataumaifruits.appspot.com/o/image%2Fsilider-blog.jpg?alt=media&token=2f756fde-1da6-4a3e-8570-42abd09e8c89'
+        }
+      >
         <div className={classes.container} style={{ textAlign: 'center' }}>
           <GridContainer>
             <GridItem xs={12}></GridItem>

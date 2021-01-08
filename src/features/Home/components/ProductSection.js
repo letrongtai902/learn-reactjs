@@ -4,9 +4,6 @@ import GridContainer from '../../../components/Grid/GridContainer';
 import GridItem from '../../../components/Grid/GridItem';
 import styles from '../../../assets/jss/material-kit-react/views/landingPageSections/teamStyle';
 import Card from '../../../components/Card/Card';
-import team1 from '../../../assets/img/quyt-hong.jpg';
-import team2 from '../../../assets/img/rau-sach.jpg';
-import team3 from '../../../assets/img/thuc-pham-kho.jpg';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -37,7 +34,7 @@ export default function ProductSection() {
                   component="img"
                   alt="Contemplative Reptile"
                   height="250"
-                  image={team1}
+                  image="https://firebasestorage.googleapis.com/v0/b/dataumaifruits.appspot.com/o/image%2Fquyt-hong.jpg?alt=media&token=3577acbb-4c47-41b4-9bdb-c078fbc6baff"
                   title="Contemplative Reptile"
                 />
                 <CardContent>
@@ -55,7 +52,13 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <CardActionArea>
-                <CardMedia component="img" alt="rau tự nhiên" height="250" image={team2} title="rau tự nhiên" />
+                <CardMedia
+                  component="img"
+                  alt="rau tự nhiên"
+                  height="250"
+                  image="https://firebasestorage.googleapis.com/v0/b/dataumaifruits.appspot.com/o/image%2Frau-sach.jpg?alt=media&token=c2f17afc-bdcf-4f85-b6ec-82d8b148f51a"
+                  title="rau tự nhiên"
+                />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
                     RAU TỰ NHIÊN
@@ -75,7 +78,7 @@ export default function ProductSection() {
                   component="img"
                   alt="Contemplative Reptile"
                   height="250"
-                  image={team3}
+                  image="https://firebasestorage.googleapis.com/v0/b/dataumaifruits.appspot.com/o/image%2Fthuc-pham-kho.jpg?alt=media&token=50b6dcd5-19d3-4c04-9a38-ca3a16446361"
                   title="Contemplative Reptile"
                 />
                 <CardContent>
