@@ -47,7 +47,7 @@ function App(props) {
           <Route
             path="/admin"
             component={() => {
-              window.location.href = 'http://umaifruits.surge.sh/';
+              window.location.href = 'https://umaifruits.herokuapp.com/';
               return null;
             }}
           />
